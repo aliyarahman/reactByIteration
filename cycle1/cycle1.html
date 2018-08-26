@@ -12,14 +12,18 @@
     <body>
         <div id="app"></div>
 
-        <!-- does nothing but generate a React component that renders an h1 greeting to the page-->
-
         <script type="text/babel">
+
+            /* does nothing but generate a React component that renders an h1 greeting to the page */
+
             class App extends React.Component {
                 render() {
                     return <h1>Hello, is there anybody IN there? Just nod if you can hear me.</h1>
                 }
             }
+
+            /* actually renders the component we made above and inserts it into the page at the element with id="app" */
+
             var mount = document.querySelector('#app');
             ReactDOM.render(<App />, mount);
         </script>

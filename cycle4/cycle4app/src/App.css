@@ -1,0 +1,32 @@
+/* General style */
+
+.App {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+/* Header style */
+
+.header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.title {
+  font-size: 1.5em;
+  margin: 1em;
+}
+
+.searchInput {
+    font-size: 1.2em;
+    margin-top: 1em;
+    padding: 5px;
+}
+
+
+/* Session style */
